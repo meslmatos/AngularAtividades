@@ -1,0 +1,17 @@
+table{
+    margin: auto;
+    width: 60%;
+    background: 	#e0ffff;
+}
+thead{
+    background:#ffc0cb ;
+    color: #000;
+    height: 2em;
+    text-transform: uppercase;
+
+}
+h2{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
