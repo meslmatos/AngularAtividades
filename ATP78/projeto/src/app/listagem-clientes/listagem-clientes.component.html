@@ -1,0 +1,25 @@
+<h2>Lista de Clientes</h2>
+
+<table *ngIf="list.length > 0; else listaVazia">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cpf</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of list">
+            <td>{{item.id}}</td>
+            <td>{{item.nome}}</td>
+            <td>{{item.idade}}</td>
+            <td>{{item.cpf}}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<ng-template #listaVazia>
+  <p>Nenhum cliente cadastrado</p>
+</ng-template>

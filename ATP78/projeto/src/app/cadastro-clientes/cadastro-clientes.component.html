@@ -1,0 +1,13 @@
+<p>Cadastrar  cliente</p>
+<form (ngSubmit)="salvar()">
+    <label for="id">Id:</label>
+    <input type="text" name="id" id="id" [(ngModel)]="id" /> <br>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" [(ngModel)]="nome" /> <br>
+    <label for="idade">Idade:</label>
+    <input type="text" name="idade" id="idade" [(ngModel)]="idade" /> <br>
+    <label for="cpf">Cpf:</label>
+    <input type="text" name="cpf" id="cpf" [(ngModel)]="cpf" /> <br>
+    <input type="submit" value="Salvar">
+</form>
+
